@@ -1,7 +1,12 @@
+import Marquee from "@/components/Marquee";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+    <section className="w-full h-screen">
+      <Marquee/>
+    <h1>Home</h1>
+    </section>
+    </>
   );
 }
