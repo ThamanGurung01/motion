@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const Marquee: React.FC = () => {
   const boxVariants={
     hidden:{x: "75%"},
-    visible:{x: "-75%"}
+    visible:{x: "-100%"}
   }
   return (
           <motion.div
