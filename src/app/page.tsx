@@ -1,11 +1,11 @@
-import MarqueeContainer from "@/components/MarqueeContainer";
+import Marquee from "@/components/Marquee";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <>
     <section className="w-full h-screen">
-    <MarqueeContainer/>
+    <Marquee/>
     <Navbar/>
     <h1>Home</h1>
     </section>
